@@ -40,3 +40,4 @@ const myAdverb = "quickly";
 // Only change code below this line
 const wordBlanks = myNoun + " "+"is"+" "+ myAdjective +" "+ "and"+","+ myVerb +" "+"realy"+" "+ myAdverb+"!";
 
+const myArray = ["I",30,"@"];
