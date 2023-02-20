@@ -24,3 +24,6 @@ firstLetterOfLastName = lastName[0];
 
 let myStr5 = "Jello World";
 myStr = "Hello World"; 
+
+const lastName0 = "Lovelace";
+const thirdLetterOfLastName = lastName[2];
