@@ -21,3 +21,6 @@ const lastName1 = "Lovelace";
 
 
 firstLetterOfLastName = lastName[0];
+
+let myStr5 = "Jello World";
+myStr = "Hello World"; 
