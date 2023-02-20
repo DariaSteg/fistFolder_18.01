@@ -41,3 +41,5 @@ const myAdverb = "quickly";
 const wordBlanks = myNoun + " "+"is"+" "+ myAdjective +" "+ "and"+","+ myVerb +" "+"realy"+" "+ myAdverb+"!";
 
 const myArray = ["I",30,"@"];
+
+const myArray2 = [["Dash",30],["Vasya",31]];
