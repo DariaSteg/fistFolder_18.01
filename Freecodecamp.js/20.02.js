@@ -7,3 +7,7 @@ myStr += "This is the second sentence."
 
 const myName = "Daria";
 const mySt3 = "My name is"+myName +"and I am well!";
+
+const someAdjective = "ease";
+let myStr4 = "Learning to code is ";
+myStr += someAdjective;
