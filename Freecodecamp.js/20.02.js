@@ -11,3 +11,7 @@ const mySt3 = "My name is"+myName +"and I am well!";
 const someAdjective = "ease";
 let myStr4 = "Learning to code is ";
 myStr += someAdjective;
+
+let lastNameLength = 0;
+const lastName = "Lovelace";
+lastNameLength = lastName.length;
