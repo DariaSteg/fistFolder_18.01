@@ -29,3 +29,5 @@ const lastName0 = "Lovelace";
 const thirdLetterOfLastName = lastName[2];
 
 const lastLetterOfLastName = lastName[lastName.length - 1]
+
+const secondToLastLetterOfLastName = lastName[lastName.length - 2]; 
