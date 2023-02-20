@@ -43,3 +43,6 @@ const wordBlanks = myNoun + " "+"is"+" "+ myAdjective +" "+ "and"+","+ myVerb +"
 const myArray = ["I",30,"@"];
 
 const myArray2 = [["Dash",30],["Vasya",31]];
+
+const myArray3 = [50, 60, 70];
+const myData = myArray[0];
