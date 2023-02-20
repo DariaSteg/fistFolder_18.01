@@ -31,3 +31,12 @@ const thirdLetterOfLastName = lastName[2];
 const lastLetterOfLastName = lastName[lastName.length - 1]
 
 const secondToLastLetterOfLastName = lastName[lastName.length - 2]; 
+
+const myNoun = "dog";
+const myAdjective = "big";
+const myVerb = "ran";
+const myAdverb = "quickly";
+
+// Only change code below this line
+const wordBlanks = myNoun + " "+"is"+" "+ myAdjective +" "+ "and"+","+ myVerb +" "+"realy"+" "+ myAdverb+"!";
+
