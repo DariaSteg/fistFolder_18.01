@@ -46,3 +46,5 @@ const myArray2 = [["Dash",30],["Vasya",31]];
 
 const myArray3 = [50, 60, 70];
 const myData = myArray[0];
+
+myArray[0] = 45;
