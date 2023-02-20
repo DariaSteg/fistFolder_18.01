@@ -64,3 +64,6 @@ const myArray = [
 
 
 myArray.push(["dog", 3]);
+
+const myArray = [["John", 23], ["cat", 2]];
+ let removedFromMyArray = myArray.pop();
