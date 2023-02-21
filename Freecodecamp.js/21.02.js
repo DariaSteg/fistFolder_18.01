@@ -13,10 +13,14 @@ const myList =[["T-shirt", 15], ["Dart", 12], ["long", 8],
 function reusableFunction() {
     console.log("Hi World");
    }
-   
    reusableFunction();
-
-   function functionWithArgs(a, b){
+function functionWithArgs(a, b){
     console.log(a+b);
 }
-functionWithArgs(1, 1)
+functionWithArgs(1, 1);
+
+function timesFive(number){
+    return number*5; 
+   }
+   timesFive(5);
+
