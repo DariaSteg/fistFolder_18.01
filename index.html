@@ -9,15 +9,15 @@
     <script src="/Codewars.js/20.02.js"></script>
     <title>First document</title>
 <html>
-  <body>
-    <main>
-      <section>
+      <body>
+        <main>
           <h1>CatPhotoApp</h1>
           <section>
             <h2>Cat Photos</h2>
             <!-- TODO: Add link to cat photos -->
             <p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
             <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+          </section>
           <section>
             <h2>Cat Lists</h2>
             <h3>Things cats love:</h3>
@@ -46,24 +46,19 @@
             <form action="https://freecatphotoapp.com/submit-cat-photo">
               <fieldset>
                 <legend>Is your cat an indoor or outdoor cat?</legend>
-              <label><input value="indoor" id="indoor" type="radio" name="indoor-outdoor"> Indoor</label>
-              <label><input value="outdoor" id="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label>
-            </fieldset>
-            <fieldset>
-              <legend>What's your cat's personality?</legend>
-              <input id="loving" type="checkbox" name="personality"> <label for="loving">Loving</label>
-              <input id="lazy" type="checkbox" name="personality"> <label for="lazy">Lazy</label>
-              <input id="energetic" type="checkbox" name="personality" ></input>
-  <label for="energetic">Energetic</label>
-            </fieldset>
+                <label><input id="indoor" type="radio" value="indoor" name="indoor-outdoor" value="indoor"> Indoor</label>
+                <label><input id="outdoor" type="radio" value="outdoor" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+              </fieldset>
+              <fieldset>
+                <legend>What's your cat's personality?</legend>
+                <input id="loving" type="checkbox" value="loving" name="personality"> <label for="loving">Loving</label>
+                <input id="lazy" type="checkbox" value="lazy" name="personality"> <label for="lazy">Lazy</label>
+                <input id="energetic" type="checkbox" value="energetic" name="personality"> <label for="energetic"> Energetic</label>
+              </fieldset>
               <input type="text" name="catphotourl" placeholder="cat photo URL" required>
-              <input type="checkbox"> Loving
               <button type="submit">Submit</button>
-        </form>
-      </section>
-    </section>
-    </section>
-   </main>
-  </body>
- </html>
-</head>
+            </form>
+          </section>
+        </main>
+      </body>
+</html>
