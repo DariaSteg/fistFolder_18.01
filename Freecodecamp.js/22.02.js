@@ -65,3 +65,10 @@ function welcomeToBooleans() {
   // Only change code below this line
 
   return true; }
+
+  function trueOrFalse(wasThatTrue) {
+    // Only change code below this line
+  if(wasThatTrue){
+   return "Yes, that was true";
+  }
+   return "No, that was false";}
