@@ -6,3 +6,11 @@ function simpleMultiplication(number) {
      }
     }
 simpleMultiplication();
+
+function repeatStr (n, s) {
+  let count='';
+  for(let i=0; i<n ;i++){
+     count+=s;
+  }
+return count;
+}
