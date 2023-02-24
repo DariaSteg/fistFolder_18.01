@@ -19,3 +19,11 @@ function chromosomeCheck(sperm) {
       function problem(x){
         return typeof x != 'number'?"Error":(x*50)+6;
       }
+
+      function makeNegative(num) {
+        if(num<0){
+         return num;
+        }else{
+          return num *= (-1);
+        }
+      }
