@@ -7,3 +7,7 @@ function chromosomeCheck(sperm) {
   const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
     return fuelLeft * mpg == distanceToPump?true:false;
    };
+
+   function find(array, element) {
+    return array.indexOf(element)>=0?array.indexOf(element):"Not found";
+    }
