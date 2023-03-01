@@ -12,10 +12,10 @@ h1, h2, p {
     text-align: center;
   }
 
-  .flavor {
+.flavor,.dessert {
     text-align: left;
     width: 75%;
-  }
+}
   
   .price {
     text-align: right;
