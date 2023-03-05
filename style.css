@@ -2,8 +2,9 @@ body {
   background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
   font-family:sans-serif;
 }
-h1,h2{
-  font-family:Impact;
+h1, h2 {
+  font-family: Impact, serif;
+
 }
 .menu {
   width: 80%;
