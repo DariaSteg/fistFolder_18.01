@@ -31,3 +31,6 @@ h1, h2, p {
 .item p{
     display:inline-block;
   }
+.established{
+    font-style:italic;
+}
